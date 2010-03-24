@@ -1,0 +1,145 @@
+/* @override http://pchoices/profiles/urlshortener/themes/narrow/css/style.css?w */
+
+body{
+	  background: #b1cde8 url(../images/main_background.png) repeat-x center top;
+	  margin: 0;
+	  padding: 0;
+}
+
+body.admin-menu{
+  margin-top: 0 !important;}
+
+body, p {
+  color: #fff;
+}
+
+.col-center a {
+  color:  #fff;
+}
+
+div.page {
+     background: url(../images/background.jpg) no-repeat center top;
+     padding: 0;
+     min-height:600px;
+}
+div.container{
+  width: 640px;
+  margin:  0 auto; 
+
+}
+
+#header {
+  padding-top: 40px;
+}
+
+#header h1#logo{
+}
+
+#header h1#logo a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  text-shadow: 1px 1px 0px #000;
+}
+
+.col-center{
+  background-color: rgba(66,66,66,0.3);
+}
+
+.col-right {
+  margin-top: 30px;
+}
+
+.col-right ul {
+  margin-left: 0;
+}
+.col-right ul li{
+  list-style-image: none;
+  list-style-type: none;
+}
+.col-right ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.col-right ul li a{
+    display: block;
+
+}
+.col-right ul li a.active, .col-right ul li a:hover{
+  background-color: rgba(66,66,66,0.3);
+}
+.liner{
+    padding: 10px;
+
+}
+
+h2 {
+  color: #fff;
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 14px;
+  color: #fff;
+}
+
+thead th {
+  background-color: rgba(255,255,255,0.3);
+  color: #fff;
+}
+
+tr td, tr.odd td {
+  background-color: transparent !important;
+}
+
+tr.even, tr.odd {
+border-bottom:1px solid #CCCCCC;
+padding:0.1em 0.6em;
+  background-color: transparent;
+}
+
+/* @group Tabs */
+
+.tabs ul.tabs.primary li a {
+  background-color: transparent;
+  border-style: none;
+  padding: 3px 5px 0;
+}
+
+.tabs ul.tabs.primary li a.active {
+  background-color: rgba(255,255,255,0.8);
+  color: #2368a9;
+}
+
+.tabs ul.tabs.primary {
+  padding: 0;
+}
+
+
+
+/* @end */
+
+.help p {
+  color: #1c64a6;
+}
+
+div.help {
+  background-color: #b0cee8;
+}
+
+#footer {
+  margin-top: 20px;
+}
+
+div fieldset, div fieldset legend {
+  background-color: transparent;
+}
+
+.block h3 {
+  
+}
